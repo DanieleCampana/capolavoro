@@ -1,0 +1,75 @@
+body {
+    font-size: 18px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-bottom: 0%;
+    font-size: 0.9em;
+    min-width: 365px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.content-table.light thead tr {
+    background-color: #4caf50;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table.dark thead tr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    text-align: center;
+    padding: 12px 15px;
+    max-width: 250px;
+}
+
+.content-table.light tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table.dark tbody tr {
+    border-bottom: 1px solid rgb(26, 25, 25);
+}
+
+.content-table.light tbody tr:nth-of-type(even) {
+    background-color: #f3f3f39d;
+}
+
+.content-table.light tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.content-table.dark tbody tr:nth-of-type(even) {
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+.content-table.dark tbody tr:nth-of-type(odd) {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.content-table.light tbody tr:last-of-type {
+    border-bottom: 2px solid #4caf50;
+}
+
+.content-table.dark tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.table-container {
+    vertical-align: top;
+    margin-left: 110px;
+    display: inline-block;
+    margin-right: 110px;
+}
